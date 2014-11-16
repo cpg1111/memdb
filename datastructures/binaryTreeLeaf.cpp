@@ -25,3 +25,11 @@ binaryTreeLeaf::setLeft(binaryTreeLeaf left){
 binaryTreeLeaf::setRight(binaryTreeLeaf right){
 	this->right = right;
 }
+
+binaryTreeLeaf::setValue(T val){
+	this->value = val;
+}
+
+binaryTreeLeaf::getValue(){
+	return this->value;
+}
